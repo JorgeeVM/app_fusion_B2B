@@ -9,8 +9,8 @@ import time
 # --- 1. CONFIGURACIÓN DE LA PÁGINA ---
 st.set_page_config(page_title='Radar B2B', page_icon='🤖', layout='centered')
 
-st.title("Radar de Competencia B2B")
-st.write("Esta herramienta despliega un bot invisible para extraer el catálogo y los precios de la competencia en tiempo real.")
+st.title("Radar de Productos-Precios")
+st.write("Esta herramienta despliega un bot para extraer el catálogo y los precios de una página web (Sin mostrar todo el proceso).")
 
 # --- 2. EL MOTOR DEL BOT (Funciones) ---
 def ejecutar_scarper(paginas_maximas=2):
