@@ -7,7 +7,7 @@ import io
 import time
 
 # --- 1. CONFIGURACIÓN DE LA PÁGINA ---
-st.set_page_config(page_title='Radar B2B', page_icon='🤖', layout='centered')
+st.set_page_config(page_title='Radar', page_icon='🤖', layout='centered')
 
 st.title("Radar de Productos-Precios")
 st.write("Esta herramienta despliega un bot para extraer el catálogo y los precios de una página web (Sin mostrar todo el proceso).")
